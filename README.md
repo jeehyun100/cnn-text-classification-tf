@@ -1,4 +1,5 @@
-**CNN 긍정과 부정을 분류하는 CNN**
+## CNN을 사용하여 문장의 의도 긍정과 부정을 분류하는 CNN(과제용)
+
 
 **[This code belongs to the "Implementing a CNN for Text Classification in Tensorflow" blog post.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
