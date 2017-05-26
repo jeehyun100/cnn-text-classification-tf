@@ -1,6 +1,14 @@
 ## CNN을 사용하여 문장의 의도 긍정과 부정을 분류하는 CNN(과제용)
 백지현(intwis100@naver.com) 제출함
 
+- ./predict.py 추가
+- 긍정과 부정의 의미를 파악하기 위해 ./predict_data/ 디렉토리에 예측을 원하는 파일을 만듬
+-- predict.neg, predict.pos
+- ./predict.py --eval_train --checkpoint_dir="./runs/1495774203/checkpoints/" 실행
+- ./runs/1495774203/checkpoints/preduct_jh.csv로 결과 저장
+- 문장뒤에 긍정은 1, 부정은 0 으로 분류함
+
+
 **[This code belongs to the "Implementing a CNN for Text Classification in Tensorflow" blog post.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
 It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow.
