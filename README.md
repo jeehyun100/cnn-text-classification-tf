@@ -3,7 +3,7 @@
 
 - ./predict.py 추가
 - 긍정과 부정의 의미를 파악하기 위해 ./predict_data/ 디렉토리에 예측을 원하는 파일을 만듬
--- predict.neg, predict.pos
+* predict.neg, predict.pos
 - ./predict.py --eval_train --checkpoint_dir="./runs/1495774203/checkpoints/" 실행
 - ./runs/1495774203/checkpoints/preduct_jh.csv로 결과 저장
 - 문장뒤에 긍정은 1, 부정은 0 으로 분류함
